@@ -1,0 +1,49 @@
+body{
+    
+    background-image: url('pictures/bckground.jpg');
+    .class1{
+        font-size: 40px;
+        color: rgb(41, 5, 126);
+        text-align: center;
+        text-decoration: underline;
+        line-height: normal;
+        
+        
+    }
+    .class2{
+        font-weight: normal;
+        font-size: 28px;
+        font-family: cursive;
+        text-align: center;
+        line-height: 0.5;
+        
+        
+    }
+    .class3{
+        font-size: 25px;
+    }
+    
+    .container{
+        border: 1px solid black;
+        
+        display: flex;
+
+    }
+    .jc-center{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        justify-content: center;
+    }
+    .heading{
+        font-size: 36px; 
+        text-decoration: underline; 
+        color: rgb(173, 5, 84);
+        text-shadow: #474646a6 12px 12px 5px;
+    }
+    
+   
+
+}
+
+
